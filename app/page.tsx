@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
+import Page1 from "@/components/PersonalComps/page1";
+import Page2 from "@/components/PersonalComps/page2";
 
-const page = () => {
+export default function Page() {
   return (
     <div>
-      dev portfolio
+      <div>
+        <Page1/>
+      </div>
+      <div>
+        <Page2/>
+      </div>
+      <div></div>
+      <div></div>
     </div>
-  )
+  );
 }
-
-export default page
