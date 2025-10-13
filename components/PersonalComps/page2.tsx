@@ -16,7 +16,7 @@ const Page2 = () => {
                 </div>
                 <div className='flex flex-col'>
                     <div className='bg-[url(/earth.png)] shadow-black bg-cover w-[29rem] h-[20rem] backdrop-blur-2xl shadow-2xl bg-blend-color-burn border-2 mt-2 bg-gradient-to-l from-black to-zinc-700 rounded-md'>
-                        <p className='p-2 font-bold text-2xl '>I'm very fexibile with time zone communications</p>
+                        <p className='p-2 font-bold text-2xl '>I &apos;m very fexibile with time zone communications</p>
                     </div>
                     <div className="backdrop-blur-2xl w-[29rem] h-[10rem] mt-2 shadow-2xl bg-black/10 rounded-md border-2 p-4 shadow-black">
                         <p className='font-bold text-2xl p-1 mb-1 text-center'>My Tech Stack</p>

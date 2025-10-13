@@ -29,7 +29,7 @@ const Page1 = () => {
       <div className='md:w-[60vw] flex flex-col justify-center items-center'>
         <p className='flex justify-center z-10 tracking-wider md:mt-[30vh] p-1 text-center'>DYNAMIC WEB MAGIC WITH NEXT JS</p>
       <h1 className='text-5xl font-bold sm:w-full z-10 p-1 text-center'>Transforming Concepts into seamless <span className='text-[#CBACF9]'>User Experiences</span> </h1>
-        <p className='flex justify-center z-10 mt-2 p-2 text-center tracking-tighter'>Hi! I'm Abdulhamid Patel, a Next.js Developer based in India</p>
+        <p className='flex justify-center z-10 mt-2 p-2 text-center tracking-tighter'>Hi! I &apos; m Abdulhamid Patel, a Next.js Developer based in India</p>
         <Button
         containerClassName='md:w-[15vw] w-[70vw] m-1 '
         className='flex justify-center items-center text-[15px] '
