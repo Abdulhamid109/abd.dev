@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard'
 
 const Page3 = () => {
     return (
-        <div className='w-screen h-screen relative md:top-[20vh] top-[25vh]'>
+        <div className='w-screen h-screen relative md:top-[20vh] top-[30vh]'>
             <div className='font-bold md:text-3xl text-xl mb-2 flex justify-center items-center'>
                 A small selection of <span className='text-[#CBACF9] pl-1 '>recent projects</span>
             </div>
