@@ -47,6 +47,20 @@ const Page2 = () => {
                             ))}
                         </Marquee>
                     </div>
+                    
+                </div>
+                <div>
+                    <div className="relative bg-[url(/demo-img.png)] shadow-black bg-cover md:w-[60rem] w-[29rem] h-[10rem] backdrop-blur-2xl shadow-2xl bg-blend-color-burn border-2 mt-2 bg-gradient-to-l from-black to-zinc-700 rounded-md">
+                        <div className="absolute inset-0 bg-black/50 rounded-md"></div>
+
+                        <div className="relative z-10 flex flex-col justify-center items-center h-full w-full text-white drop-shadow-2xl drop-shadow-white">
+                            <div className=''>
+                                <p className="tracking-wider text-[15px] text-center">The Inside scope</p>
+                            <h1 className="text-2xl font-bold text-center ">Currently building the AI based Food & Supply chain Management</h1>
+                        
+                            </div>
+                            </div>
+                        </div>
                 </div>
             </div>
 

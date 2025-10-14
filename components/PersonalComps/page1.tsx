@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils'
 import React from 'react'
 import { Spotlight } from '../ui/spotlight'
 import Navbar from './Navbar'
-import { Button } from '../ui/moving-border'
+// import { Button } from '../ui/moving-border'
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 
@@ -28,17 +28,16 @@ const Page1 = () => {
 
       <div className='md:w-[60vw] flex flex-col justify-center items-center'>
         <p className='flex justify-center z-10 tracking-wider md:mt-[30vh] p-1 text-center'>DYNAMIC WEB MAGIC WITH NEXT JS</p>
-      <h1 className='text-5xl font-bold sm:w-full z-10 p-1 text-center'>Transforming Concepts into seamless <span className='text-[#CBACF9]'>User Experiences</span> </h1>
+        <h1 className='text-5xl font-bold sm:w-full z-10 p-1 text-center'>Transforming Concepts into seamless <span className='text-[#CBACF9]'>User Experiences</span> </h1>
         <p className='flex justify-center z-10 mt-2 p-2 text-center tracking-tighter'>Hi! I &apos; m Abdulhamid Patel, a Next.js Developer based in India</p>
-        <Button
-        containerClassName='md:w-[15vw] w-[70vw] m-1 '
-        className='flex justify-center items-center text-[15px] '
+        <button
+          className='md:w-[15vw] p-2 bg-[#05071d90] rounded-md backdrop-blur-2xl border shadow-2xl shadow-black w-[70vw] m-1 flex justify-center items-center text-[15px] '
         >
-          See my work <MdOutlineArrowOutward/>
-        </Button>
+          See my work <MdOutlineArrowOutward />
+        </button>
       </div>
 
-      
+
     </div>
 
   )
