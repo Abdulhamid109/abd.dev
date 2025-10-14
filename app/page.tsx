@@ -6,7 +6,7 @@ import Page4 from "@/components/PersonalComps/page4";
 
 export default function Page() {
   return (
-    <div>
+    <div className="">
       <div>
         <Page1/>
       </div>

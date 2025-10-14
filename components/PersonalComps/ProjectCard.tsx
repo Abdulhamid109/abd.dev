@@ -11,7 +11,7 @@ const ProjectCard = () => {
 
             </div>
             <div className='flex flex-col justify-center items-start gap-1 p-1 mt-1'>
-                <div className='font-bold text-2xl pl-2'>3D solar system</div>
+                <div className='font-bold md:text-2xl text-xl mt-1 pl-2'>3D solar system</div>
                 <div className='pl-2'>Explore the wonders of our solar system</div>
                 <div className='flex justify-between items-center w-full p-2'>
                     <div className='flex justify-center items-center gap-1 '>
@@ -20,9 +20,6 @@ const ProjectCard = () => {
                         <FaNodeJs />
                         <SiTypescript />
                         <RiTailwindCssFill />
-
-
-
                     </div>
                     <div className='text-[#CBACF9] flex justify-center gap-0.5 items-center'>
                         check live Site <MdOutlineArrowOutward /> </div>

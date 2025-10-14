@@ -11,14 +11,14 @@ const Page2 = () => {
         <div className='h-screen w-screen flex flex-col justify-center items-center bg-[#05071D]/[0.96]'>
 
             <div className='flex justify-center items-center flex-wrap md:gap-3'>
-                <div className="bg-[url(/image.png)] shadow-black bg-cover w-[29rem] h-[30rem] backdrop-blur-2xl shadow-2xl bg-black/10 rounded-md">
+                <div className="bg-[url(/image.png)] shadow-black bg-cover w-[25rem] h-[30rem] backdrop-blur-2xl shadow-2xl bg-black/10 rounded-md">
                     <p className='flex justify-center items-end h-full text-2xl p-2 w-[20rem] font-bold'>I prioritize Client collaboration,fostering opening communication</p>
                 </div>
                 <div className='flex flex-col'>
-                    <div className='bg-[url(/earth.png)] shadow-black bg-cover w-[29rem] h-[20rem] backdrop-blur-2xl shadow-2xl bg-blend-color-burn border-2 mt-2 bg-gradient-to-l from-black to-zinc-700 rounded-md'>
+                    <div className='bg-[url(/earth.png)] shadow-black bg-cover w-[25rem] h-[20rem] backdrop-blur-2xl shadow-2xl bg-blend-color-burn border-2 mt-2 bg-gradient-to-l from-black to-zinc-700 rounded-md'>
                         <p className='p-2 font-bold text-2xl '>I &apos;m very fexibile with time zone communications</p>
                     </div>
-                    <div className="backdrop-blur-2xl w-[29rem] h-[10rem] mt-2 shadow-2xl bg-black/10 rounded-md border-2 p-4 shadow-black">
+                    <div className="backdrop-blur-2xl w-[25rem] h-[10rem] mt-2 shadow-2xl bg-black/10 rounded-md border-2 p-4 shadow-black">
                         <p className='font-bold text-2xl p-1 mb-1 text-center'>My Tech Stack</p>
                         <Marquee
                             className=' backdrop-blur-2xl shadow-2xl  rounded-md'
@@ -50,7 +50,7 @@ const Page2 = () => {
                     
                 </div>
                 <div>
-                    <div className="relative bg-[url(/demo-img.png)] shadow-black bg-cover md:w-[60rem] w-[29rem] h-[10rem] backdrop-blur-2xl shadow-2xl bg-blend-color-burn border-2 mt-2 bg-gradient-to-l from-black to-zinc-700 rounded-md">
+                    <div className="relative bg-[url(/demo-img.png)] shadow-black bg-cover md:w-[60rem] w-[25rem] h-[10rem] backdrop-blur-2xl shadow-2xl bg-blend-color-burn border-2 mt-2 bg-gradient-to-l from-black to-zinc-700 rounded-md">
                         <div className="absolute inset-0 bg-black/50 rounded-md"></div>
 
                         <div className="relative z-10 flex flex-col justify-center items-center h-full w-full text-white drop-shadow-2xl drop-shadow-white">
