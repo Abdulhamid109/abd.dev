@@ -4,6 +4,7 @@ import Page2 from "@/components/PersonalComps/page2";
 import Page3 from "@/components/PersonalComps/page3";
 import Page4 from "@/components/PersonalComps/page4";
 import Page5 from "@/components/PersonalComps/page5";
+import Page6 from "@/components/PersonalComps/page6";
 
 export default function Page() {
   return (
@@ -20,6 +21,7 @@ export default function Page() {
       <div>
         <Page4/>
         <Page5/>
+        <Page6/>
       </div>
       
     </div>

@@ -6,7 +6,7 @@ import { SiTypescript } from 'react-icons/si'
 
 const ProjectCard = () => {
     return (
-        <div className='flex flex-col w-fit h-fit border rounded-md p-2 m-4 backdrop-blur-2xl shadow-2xl shadow-[#000000] hover:scale-105 transition-all duration-200'>
+        <div className='flex flex-col w-fit h-fit border rounded-md p-2 m-4 backdrop-blur-2xl shadow-2xl shadow-[#000000] hover:scale-105 hover:transition-all hover:duration-200'>
             <div className='bg-[url(/image.png)] bg-no-repeat border bg-center bg-cover w-[20rem] rounded-md h-[15rem] backdrop-blur-xl shadow-xl shadow-[#011721] md-2'>
 
             </div>

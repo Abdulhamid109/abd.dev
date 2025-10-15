@@ -11,7 +11,7 @@ const Page2 = () => {
         <div className='h-screen w-screen flex flex-col justify-center items-center bg-[#05071D]/[0.96]'>
 
             <div className='flex justify-center items-center flex-wrap md:gap-3'>
-                <div className="bg-[url(/image.png)] shadow-black bg-cover w-[23rem] h-[30rem] backdrop-blur-2xl shadow-2xl bg-black/10 rounded-md">
+                <div className="bg-[url(/image.png)] shadow-black bg-cover md:w-[36rem] w-[23rem] h-[30rem] backdrop-blur-2xl shadow-2xl bg-black/10 rounded-md">
                     <p className='flex justify-center items-end h-full text-2xl p-2 w-[20rem] font-bold'>I prioritize Client collaboration,fostering opening communication</p>
                 </div>
                 <div className='flex flex-col'>
