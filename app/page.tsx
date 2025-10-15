@@ -27,6 +27,8 @@ export default function Page() {
           end: "top 20%",
           scrub: false,
           markers: false, // Set to true for debugging
+          onEnter: () => gsap.to(page as any, { opacity: 1, y: 0, duration: 1 }),
+          onEnterBack: () => gsap.to(page as any, { opacity: 1, y: 0, duration: 1 }),
         },
       });
     });
@@ -37,26 +39,26 @@ export default function Page() {
   }, []);
   return (
     <div className="" ref={containerRef}>
-      <div className="page">
-        <Page1/>
+      <div id="about" className="page">
+        <Page1 />
+      </div>
+      <div id="project" className="page">
+        <Page2 />
       </div>
       <div className="page">
-        <Page2/>
+        <Page3 />
       </div>
       <div className="page">
-        <Page3/>
+        <Page4 />
       </div>
       <div className="page">
-        <Page4/>
+        <Page5 />
+
       </div>
       <div className="page">
-        <Page5/>
-        
+        <Page6 />
       </div>
-      <div className="page">
-        <Page6/>
-      </div>
-      
+
     </div>
   );
 }
